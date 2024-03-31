@@ -1,0 +1,101 @@
+<html>
+ <head> 
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <title></title> 
+  <script src="js/jq.js"></script> 
+ </head> 
+ <body id="v1"> 
+  <style id="v2">
+                    body {
+              background-image: url("bj.jpg");/*背景图片路径*/
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+      
+            .logo{
+              border-radius: 100px;
+        }
+      
+      .go {
+             background-image:-webkit-linear-gradient(left,#00f,#6ff 10%,#c0f 20%,#c0c 30%,#ccf 40%,#0ff 50%,#ccf 60%,#c0c 70%,#c0f 80%,#6ff 90%,#00f);
+    text-align:center;
+    font-size:15px;
+    line-height:40px;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -webkit-background-size:20% 10%;
+    -webkit-animation:masked-animation 1s linear infinite
+    
+        }
+      
+       .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(9, 0, 5, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        
+        .dialog {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .dialog h2 {
+            margin-top: 0;
+        }
+        
+        .dialog p {
+            margin-bottom: 0;
+        }
+        
+        .dialog button {
+            margin-top: 200px;
+        }
+  </style> 
+  <h1 id="v3"></h1> 
+  <p id="v4"></p> 
+  <div id="v5" style="text-align:center;"> 
+   <p id="v6"> </p> 
+  </div> 
+  <div id="v7" style="text-align:center; "> 
+   <img id="v8" class="logo" src="Image_1711849614147.jpg" width="30%"> 
+   <h1 id="v9" class="go" style="text-align:center; color:#fff;">-----oon.-----</h1> 
+   <button id="v10" style="border-radius: 100px; " onclick="openDialog()">打赏</button> 
+   <div id="overlay" class="overlay" style="display: none;"> 
+    <div id="v11" class="dialog"> 
+     <img id="v12" src="11.jpg" width="100%"> 
+     <p id="v13">扫码打赏</p> 
+     <button id="v14" style="border-radius: 100px;" onclick="closeDialog()">关闭弹窗</button> 
+    </div> 
+   </div> 
+   <script>
+        function openDialog() {
+            document.getElementById("overlay").style.display = "flex";
+        }
+        
+        function closeDialog() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script> 
+   <p id="v15"> <a id="v16" style="color:#fff;" href="https://qm.qq.com/q/rka79UkOvS">web交流群</a></p> 
+   <p id="v17"><a id="v18" style="color:#fff;" href="http://3562852974.qzone.qq.com">本人QQ</a> </p> 
+  </div> 
+  <p id="v19"> <img id="v20" src="t.jpg" width="50%"><a id="v21"><img id="v22" src="t.jpg" width="50%"> </a></p> 
+  <p id="v23" style="text-align:center; color:#fff;"><a id="v21">星星保护月亮，我保护你啊˶⍤⃝˶ ꒳ᵒ꒳ᵎᵎᵎ</a></p> 
+  <a id="v21"> <img id="v24" src="t.jpg" width="50%"></a> 
+  <a id="v25"><img id="v26" src="t.jpg" width="50%"> <p id="v27" style="text-align:center; color:#fff;">老子要炸了这个世界！</p> <img id="v28" src="k.jpg" width="50%"></a> 
+  <a id="v29"><img id="v30" src="t.jpg" width="50%"> <p id="v31" style="text-align:center; color:#fff;">今天我听了歌，什么歌，没有你我心如刀割</p> 
+   <hr id="v32"> <h1 id="v33" style="text-align:center; color:#fff;">伤感小短文</h1> <p id="v34" style="color:#fff;"> 花开花落，走过一季又一季，时光如沙漏般倒流，倒带般映出那些画面，兜兜转转，还是回到了原地，沿着这条熟悉的路走，脑海中总是会浮现你的身影，偶尔有风吹过，掺杂的味道，总是残留在你走过的路，头顶上空的枝叶，抵挡着阳光的入侵，为寂静的小巷子，保持着该有的阴暗，虽然，天空的颜色很美，却掩饰不着内心的憔悴，我带着和夜一样的情绪，依然在沉默中逃避。 　　那片蓝色的天空，像是城市上空中，浮现了许多奢华的光彩，走在没人的街头，是寂静和凄凉，然而有些迷惘，最终，一切都归还回原点，街角两旁的花儿已凋谢，但想念却永不停息，望着那些离去的背影，想去寻找你遗失的足迹，抬头仰望，原以为是蓝色的天空，现在都已变了颜色，变得失去光彩，原以为那繁华的街市，现在早已变得寥寥无人，而留下的人，却变得麻木冷淡，失去了他们最活力的一面，街角的空虚，就如同我的情人。 　　等待和惦记没改变，虽然微笑，装得一切安好，只有自己明白，装得再好，也掩埋不了内心的伤痛，你不懂我的世界，是多么的孤寂，那种孤独夜夜陪伴，是撕心裂肺的痛，只有一个人默默承受，而原本以为，你早已淡忘了那些前尘，你却在电话中说想念，说往事还迟迟的停留在那里，不能忘却，或许是我们都再也无力，去诉说那尘封已久的往事吧！最终，还是我们都走的太匆忙，对于那些已经远离的过往，我们只是记在心里。 　　这个宁静的夏日，阳光依然去照耀那片，已经变得无色的天空，最终，时间的轮回，我们只是爱了整整一个曾经，流光年华，追着时光惦念我们走过的路，流过的泪，笑过的脸，我们还是以分离作为结局，爱的只是个曾经，是一场注定失落的悲剧，你我不知道，该如何延续下一个花开的海岸，看着天上云朵轻轻飘过，我低头叹息，无数次跌落漫漫长河，曾经，我在情感里很放肆，现在才知道那种放肆，其实就是一场梦，当梦醒来时，依稀还记得，那些记忆，凄乱了无数个不眠之夜，把自己变得这么的不解情意。 　　现在，七月的阳光，在肆意挥洒体温，我们都爱到深处，才会领悟其中的感受，当一切的刻苦铭心，在岁月的饶恕下渐渐模糊，只能学会饶恕自己，孤单只是情绪泛滥，过去的倾心是一场烟花，你我只是时光轨道，迷失方向的邂逅，现在，我只能把自己的文字，束缚在自己的空间中，而你和我，一个天涯，一个海角，而今，我们却只能在文字中彼此穿梭，而文字有时会变得庸常而遭溃败，因我们都无力去改变，那许久的无奈，只有开启心中的那片等待吧！ 　　如今，城市的雨季也来临，阳光却依然潋滟，我们都逆转了时空，再也无法回头了，在情感的世界里，我们都承受了太多太多，在那一抹缱绻的柔情里，在那阳光的背影下，往事的.尘烟会慢慢褪去，我们曾经的热情，悄然平息，那些无声的记忆，在遥远而寂静的时空里，成了我内心隐藏已久的记忆，那些记忆，是抚慰心灵忧伤的一堵墙，而我，则静静的伫立在这片朦胧的景象中，仰望着那场亘古不变的永恒，然后不断重复，跌入寂寞的怀抱，此时，我遗忘了盛夏的味道，在这个多情的雨季，凄美了花海里，暮色的残梦。 </p> 
+   <audio id="v35" autoplay=""> 
+    <source id="v36" src="mp3/bj.mp3" <="" source=""> 
+   </audio> rce src="mp3/bj.mp3" <script src="https://api.vvhan.com/api/yinghua"></script> </a>
+   <p>未备案</p>
+ </body>
